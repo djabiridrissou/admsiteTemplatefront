@@ -2,21 +2,13 @@ import { Route, Routes } from "react-router-dom";
 import './index.css'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { Login, Dashboard, Layout, Register, ChangePassword, DebtList, Users, IndexUser } from "./routes/routes";
+import {Dashboard, Layout } from "./routes/routes";
 import { useEffect } from "react";
 
 function App() {
 
-  useEffect(() => {
-    /* const testApi = async () => {
-      try {
-        await axios.get(`${server}/`);
-      } catch (error) {
-        navigate("/");
-      }
-    };
-    testApi(); */
-  });
+  
+  }, );
 
   return (
     <>
