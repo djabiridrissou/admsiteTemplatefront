@@ -10,7 +10,7 @@ import { FaChartColumn } from "react-icons/fa6";
 import { LiaTableSolid } from "react-icons/lia";
 
 
-const Sidebar = ({ open, setOpen }: any) => {
+const Sidebar = ({ open }: any) => {
 
 
     useEffect(() => {
